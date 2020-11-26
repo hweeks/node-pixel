@@ -28,8 +28,7 @@ export function normalizeColorWithBrightness(colors : rgbInputArray, brightness:
     (current, index) => whiteCap[index].g_table[current]
   ).map(
     (current, index) => Math.round((current / 255) * whiteCap[index].maximum)
-  )
-  .map(
+  ).map(
     (current) => Math.round(Math.max(Math.min(current * brightness, 255), 0))
   );
   return rgbToHex([gammaCorrectedColor[0], gammaCorrectedColor[1], gammaCorrectedColor[2]])
