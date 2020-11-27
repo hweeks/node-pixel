@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/hweeks/node-pixel-async/compare/v1.2.0...v1.3.0) (2020-11-27)
+
+
+### Features
+
+* add brightness to pixel ([753db4d](https://github.com/hweeks/node-pixel-async/commit/753db4d067325e06a8caebb366d9e70b941d65f3))
+* add brightness to strip ([e3037d6](https://github.com/hweeks/node-pixel-async/commit/e3037d66e283185eff1191d4774fbcbe0863095b))
+
 # [1.2.0](https://github.com/hweeks/node-pixel-async/compare/v1.1.0...v1.2.0) (2020-11-26)
 
 
